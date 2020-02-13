@@ -71,6 +71,8 @@ public class DetalleCliente extends AppCompatActivity {
                 apellido.setText(objeto.getString("Apellidos"));
                 telefono.setText(objeto.getString("celular"));
                 direccion.setText(objeto.getString("Domicilio"));
+
+
             }
         } catch (JSONException e) {
             Log.i("MI error", e.toString());

@@ -81,7 +81,8 @@
             android:layout_height="wrap_content"
             android:text="Editar"
             android:layout_marginTop="40dp"
-            android:textAlignment="center"/>
+            android:textAlignment="center"
+            android:visibility="invisible"/>
 
 
 </LinearLayout>
